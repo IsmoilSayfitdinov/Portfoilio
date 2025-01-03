@@ -9,6 +9,7 @@ const TechStack: React.FC = () => {
         <h3 className="text-xl font-semibold mb-2">Frontend</h3>
         <ul className="space-y-2 text-gray-300">
           <li>React & Next.js</li>
+          <li>React Query</li>
           <li>JavaScript</li>
           <li>TailwindCSS</li>
         </ul>

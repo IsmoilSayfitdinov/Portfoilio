@@ -3,9 +3,9 @@ import React from 'react';
 const Timeline: React.FC = () => {
   const experiences = [
     {
-      role: "Junior Developer",
-      company: "SaidOff",
-      period: "2024",
+      role: "Frontend Developer",
+      company: "Repid",
+      period: "2023",
       description: "Built websites for various clients",
       achievements: [
         "Delivered 6+ client projects",

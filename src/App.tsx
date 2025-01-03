@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Code2, Briefcase, User, Mail, Github, Linkedin, ExternalLink, ChevronRight, Terminal, Gitlab, Instagram, TableCellsMerge } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import {  Code2,  Mail, Github,  ChevronRight,Gitlab, } from 'lucide-react';
 import Modal from './components/Modal';
 import ProjectCard from './components/ProjectCard';
 import Section from './components/Section';
@@ -29,24 +29,31 @@ function App() {
   const projects = [
     {
       title: "Repid",
-      description: "Full-featured online store with cart management, payment processing, and real-time inventory",
+      description: "campaign landing page",
       tech: ["Next js", "TailwindCSS"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
       link: "https://www.repid.uz/"
     },
     {
-      title: "Repid CRM",
-      description: "Real-time data visualization platform with customizable widgets and reporting",
+      title: "Reduce CRM",
+      description: "The crm system for restaurant management for reduce was made by rapid campaign",
       tech: ["Next.js", "Chart Js", "Tailwind CSS", "Highcharts"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
       link: "http://crm.repid.uz"
     },
     {
       title: "Thenew Education",
-      description: "Feature-rich social platform with real-time messaging and content sharing",
+      description: "engilish school landing page",
       tech: ["Next Js"],
       image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=800&q=80",
       link: "https://www.theneweducation.uz/"
+    },
+    {
+      title: "OTMK CRM",
+      description: "crm made for government to manage employees and developers",
+      tech: ["Next Js", "React Query", "Tailwind CSS", "Shadcn UI", "Chart Js", "Highcharts",],
+      image: "https://i.ytimg.com/vi/0l_z0vW5qqU/sddefault.jpg",
+      link: "https://crmotmk.repid.uz"
     }
   ];
 
@@ -55,7 +62,7 @@ function App() {
       <Nav activeSection={activeSection} isMobileMenuOpen={isMobileMenuOpen} setIsMobileMenuOpen={setIsMobileMenuOpen} />
 
       <main className="container mx-auto px-4 pt-20">
-        <section id="hero" className="min-h-screen flex items-center">
+        <section id="hero" className="min-h-screen flex items-center justify-between ">
           <div className="space-y-6">
             <h1 className="text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent animate-gradient">
               Frontend Developer
@@ -78,17 +85,95 @@ function App() {
               </a>
             </div>
           </div>
+          <div className='hidden lg:block'>
+            <img className='rounded-[30%]' src='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg'/>
+          </div>
         </section>
 
         <Section id="about" title="About Me">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid mobile:grid-cols-1  gap-12 items-center ">
             <div className="space-y-6">
               <p className="text-lg text-gray-300">
-                With over 1 years of experience in frontend development, I specialize in building scalable, performant web applications using modern JavaScript frameworks and tools.
+              <p>
+                As a software developer, freelancing worldwide.🌍 I have been working in the field of programming for 3 years and have gained experience by participating in many projects. I am proficient in JavaScript, Python programming languages. I continue to learn different new knowledge during each work experience. My goal is to benefit everyone by doing their job perfectly 💻✨
+              </p>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+              <p>
+                Proficient in various programming languages including JavaScript. Possess 3 years of hands-on experience in software development using leading frameworks and tools. Adept at gathering business requirements, designing software architectures, and delivering high-quality solutions across the software development lifecycle.
+              </p>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+              <p>
+                💻Languages and Frameworks: Python, JavaScript, React Js, Next Js, Database, PostgreSQL, Chatgpt, Github, API, Django
+              </p>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+              <p>
+                📈Highly skilled and experienced in:
+              </p>
+              
+              <br/>
+
+              <ul>
+                <li>✔️Software development</li>
+                <li>✔️API</li>
+                <li>✔️Software Architecture Design</li>
+                <li>✔️Version Control (GIT)</li>
+                <li>✔️JavaScript || Python</li>
+                <li>✔️Solves for bugs</li>
+                <li>✔️Testing programs</li>
+                <li>✔️Coding high quality</li>
+              </ul>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+              <p>
+                💡 What I Can Do for You:
+              </p>
+              <br/>
+              <ul>
+                <li>
+                  Software Development: Full-cycle software development from concept to deployment, ensuring the highest quality at every stage.
+                </li>
+                <li>
+                  API Development: Expert in building and integrating RESTful APIs for seamless communication between systems.
+                </li>
+                <li>
+                  Database Management: Proficient in PostgreSQL, and advanced database design, ensuring smooth data handling and optimization.
+                </li>
+                <li>
+                  Bug Fixing & Testing: Quick to identify and solve bugs, and ensure robust testing for smooth performance.
+                </li>
+                <li>
+                  Version Control: Fluent in Git to maintain clean and efficient collaboration on projects.
+                </li>
+              </ul>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+              <p>
+                🛠 Technical Expertise:
+              </p>
+              <br/>
+              <ul>
+                <li>Languages: Python, JavaScript</li>
+                <li>Frameworks: React Js, Django, Next Js</li>
+                <li>Databases: PostgreSQL</li>
+                <li>Tools: GitHub, Git, ChatGPT, API, Aiogram</li>
+                <li>
+                  Software Architecture: Expertise in designing efficient, scalable architectures for complex software solutions
+                </li>
+              </ul>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+              <p>
+                📧I want to cooperate with you for a long time. Of course, the assigned task is performed very skillfully and handed over to the client. Each job is done perfectly according to the client's requirements. Contact me I will be happy to work with you. I look forward to your offer.
+              </p>
+              <div className='h-[1px] my-6 w-full bg-gray-700'></div>
+
+
               </p>
               <TechStack />
             </div>
-            <div className="relative">
+            <div className="relative block sm:hidden">
               <img
                 src="https://images.stockcake.com/public/a/4/b/a4b3e994-37e9-45e2-87cd-9f7418f5de1f_large/focused-code-developer-stockcake.jpg"
                 alt="Profile"
@@ -101,12 +186,12 @@ function App() {
           </div>
         </Section>
 
-        <Section id="experience" title="Experience">
+        <Section id="experience" title="Experience" >
           <Timeline />
         </Section>
 
         <Section id="projects" title="Featured Projects">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
@@ -120,6 +205,7 @@ function App() {
               <ul className="space-y-2 text-gray-300">
                 <li>React Js</li>
                 <li>Next.js</li>
+                <li>React Query</li>
                 <li>JavaScript</li>
                 <li>TailwindCSS & Styled Components</li>
               </ul>

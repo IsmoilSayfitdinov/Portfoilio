@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Download, ExternalLink } from 'lucide-react';
+import { X, Download } from 'lucide-react';
 
 interface ModalProps {
   isOpen: boolean;
@@ -27,7 +27,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
             <div className="flex justify-between items-start">
               <div>
                 <h1 className="text-3xl font-bold">Ismoil Sayfitdinov</h1>
-                <p className="text-gray-400">Junior Frontend Developer</p>
+                <p className="text-gray-400">Frontend Developer</p>
               </div>
               <div className="flex gap-4">
                 <button className="flex items-center gap-2 px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors">
@@ -49,7 +49,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
           <section>
             <h3 className="text-xl font-semibold mb-4">Professional Summary</h3>
             <p className="text-gray-300">
-              Senior Frontend Developer with 1 years of experience building scalable web applications.
+              Frontend Developer with 1 years of experience building scalable web applications.
               Specialized in Next Js ecosystem and modern JavaScript. Strong focus on performance optimization
               and responsive design.
             </p>
@@ -63,9 +63,9 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                 <div className="flex justify-between mb-2">
                   <div>
                     <h4 className="font-semibold">Frontend Developer</h4>
-                    <p className="text-purple-400 mt-1">SaidOff Uzbekistan</p>
+                    <p className="text-purple-400 mt-1">Repid Uzbekistan</p>
                   </div>
-                  <p className="text-gray-400">2024</p>
+                  <p className="text-gray-400">2023</p>
                 </div>
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
                   <li>Developed responsive web applications using Next Js</li>
@@ -85,6 +85,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   <li>JavaScript</li>
                   <li>Next.js</li>
                   <li>TailwindCSS</li>
+                  <li>React Query</li>
                 </ul>
               </div>
               <div>
