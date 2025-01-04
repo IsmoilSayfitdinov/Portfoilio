@@ -95,11 +95,11 @@ function App() {
             <div className="space-y-6">
               <p className="text-lg text-gray-300">
               <p>
-                As a software developer, freelancing worldwide.🌍 I have been working in the field of programming for 3 years and have gained experience by participating in many projects. I am proficient in JavaScript, Python programming languages. I continue to learn different new knowledge during each work experience. My goal is to benefit everyone by doing their job perfectly 💻✨
+                🌍 I have been working in the field of programming for 1 years and have gained experience by participating in many projects. I am proficient in JavaScript, Python programming languages. I continue to learn different new knowledge during each work experience. My goal is to benefit everyone by doing their job perfectly 💻✨
               </p>
               <div className='h-[1px] my-6 w-full bg-gray-700'></div>
               <p>
-                Proficient in various programming languages including JavaScript. Possess 3 years of hands-on experience in software development using leading frameworks and tools. Adept at gathering business requirements, designing software architectures, and delivering high-quality solutions across the software development lifecycle.
+                Proficient in various programming languages including JavaScript. Possess 1 years of hands-on experience in software development using leading frameworks and tools. Adept at gathering business requirements, designing software architectures, and delivering high-quality solutions across the software development lifecycle.
               </p>
               <div className='h-[1px] my-6 w-full bg-gray-700'></div>
 
