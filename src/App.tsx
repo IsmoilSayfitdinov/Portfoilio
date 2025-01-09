@@ -54,6 +54,20 @@ function App() {
       tech: ["Next Js", "React Query", "Tailwind CSS", "Shadcn UI", "Chart Js", "Highcharts",],
       image: "https://i.ytimg.com/vi/0l_z0vW5qqU/sddefault.jpg",
       link: "https://crmotmk.repid.uz"
+    },
+    {
+      title: "SaidOff CRM Demo Versiya",
+      description: "This was a crm for saidoff campaign, it's demo version now",
+      tech: ["Next Js",  "Tailwind CSS", "Shadcn UI", "Chart Js", "Highcharts",],
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ00uL6A2maVwDayAFNwkixON0Th_k6Psc5iw&s",
+      link: "http://crm.meedweff.uz/"
+    },
+    {
+      title: "SaidOff",
+      description: "This said off campaign was done when this project was launched in September 2024",
+      tech: ["Next Js",  "Tailwind CSS",],
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ00uL6A2maVwDayAFNwkixON0Th_k6Psc5iw&s",
+      link: "https://www.saidoff.uz/"
     }
   ];
 
