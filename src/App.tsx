@@ -39,7 +39,7 @@ function App() {
       description: "The crm system for restaurant management for reduce was made by rapid campaign",
       tech: ["Next.js", "Chart Js", "Tailwind CSS", "Highcharts"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-      link: "http://crm.repid.uz"
+      link: "https://reduce.meedweff.uz/login"
     },
     {
       title: "Thenew Education",
