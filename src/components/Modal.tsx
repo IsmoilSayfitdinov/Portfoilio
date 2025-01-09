@@ -49,7 +49,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
           <section>
             <h3 className="text-xl font-semibold mb-4">Professional Summary</h3>
             <p className="text-gray-300">
-              Frontend Developer with 1 years of experience building scalable web applications.
+              Frontend Developer with 0.5 years of experience building scalable web applications.
               Specialized in Next Js ecosystem and modern JavaScript. Strong focus on performance optimization
               and responsive design.
             </p>

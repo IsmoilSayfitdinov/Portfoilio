@@ -99,7 +99,7 @@ function App() {
               </p>
               <div className='h-[1px] my-6 w-full bg-gray-700'></div>
               <p>
-                Proficient in various programming languages including JavaScript. Possess 1 years of hands-on experience in software development using leading frameworks and tools. Adept at gathering business requirements, designing software architectures, and delivering high-quality solutions across the software development lifecycle.
+                Proficient in various programming languages including JavaScript. Possess 2 years of hands-on experience in software development using leading frameworks and tools. Adept at gathering business requirements, designing software architectures, and delivering high-quality solutions across the software development lifecycle.
               </p>
               <div className='h-[1px] my-6 w-full bg-gray-700'></div>
 
