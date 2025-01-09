@@ -5,7 +5,7 @@ const Timeline: React.FC = () => {
     {
       role: "Frontend Developer",
       company: "Repid",
-      period: "2023",
+      period: "2024",
       description: "Built websites for various clients",
       achievements: [
         "Delivered 6+ client projects",

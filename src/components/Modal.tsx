@@ -65,7 +65,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                     <h4 className="font-semibold">Frontend Developer</h4>
                     <p className="text-purple-400 mt-1">Repid Uzbekistan</p>
                   </div>
-                  <p className="text-gray-400">2023</p>
+                  <p className="text-gray-400">2024</p>
                 </div>
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
                   <li>Developed responsive web applications using Next Js</li>
