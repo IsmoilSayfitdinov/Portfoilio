@@ -95,7 +95,7 @@ function App() {
             <div className="space-y-6">
               <p className="text-lg text-gray-300">
               <p>
-                🌍 I have been working in the field of programming for 1 years and have gained experience by participating in many projects. I am proficient in JavaScript, Python programming languages. I continue to learn different new knowledge during each work experience. My goal is to benefit everyone by doing their job perfectly 💻✨
+                🌍 I have been working in the field of programming for 0.5 years and have gained experience by participating in many projects. I am proficient in JavaScript, Python programming languages. I continue to learn different new knowledge during each work experience. My goal is to benefit everyone by doing their job perfectly 💻✨
               </p>
               <div className='h-[1px] my-6 w-full bg-gray-700'></div>
               <p>
